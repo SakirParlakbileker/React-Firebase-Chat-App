@@ -1,23 +1,19 @@
-# Chat Uygulaması Firebase Projesi
+# React Firebase Chat App
+This is a real-time chat application built using React, Firebase, and Sass. It allows users to log in with their Google accounts, select chat rooms, and send messages in real-time.
 
-Bu proje, Firebase kullanarak oluşturulan bir chat uygulamasıdır. Firebase, gerçek zamanlı veritabanı ve kullanıcı kimlik doğrulama gibi hizmetler sağlayarak geliştiricilere kolaylık sunar. Bu uygulama, kullanıcıların anlık olarak iletişim kurabileceği bir platform sağlar.
+## Features:
+- **Authentication**: Users can log in using their Google accounts via Firebase authentication.
+- **Room Selection**: Users can select the chat room they want to join.
+- **Real-time Messaging**: Messages are sent and received in real-time using Firebase Firestore.
+- **Responsive Design**: The app is designed to be responsive and work seamlessly across different devices.
 
-## Özellikler
+# Technologies Used:
+- **React**: Frontend development is done using React, a popular JavaScript library for building user interfaces.
+- **Firebase**: Firebase is used for authentication and real-time data storage.
+- **Sass**: Sass is used for styling, providing a more organized and maintainable CSS codebase.
 
-- Kullanıcı kimlik doğrulaması ve kayıt olma
-- Gerçek zamanlı ileti gönderme ve alma
-- Kullanıcı profilleri 
-
-
-## Kullanılan Teknolojiler
-
-- Firebase Authentication
-- Firebase Realtime Database
-- Firebase Storage
-
-## Canlı
-https://chat-app-firbase.vercel.app/
-
-## Ekran Görüntüsü
-![Chat-App-ezgif com-speed](https://github.com/aydincansu1/Chat-App-Firbase/assets/134061696/627ad39f-8bb3-47d9-865e-ee1cc99aad49)
-
+# Key Components:
+- **AuthPage**: Handles user authentication using Firebase's Google sign-in popup.
+- **RoomPage**: Allows users to select the chat room they want to enter.
+- **ChatPage**: Displays the selected chat room and facilitates real-time messaging.
+- **Message** Component: Renders individual chat messages, distinguishing between the current user's messages and others'.
